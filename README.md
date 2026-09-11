@@ -16,6 +16,16 @@ This repository is the reusable **workflow/methodology layer**. A new software p
 
 The existing `eo4992-boop/gpt` repository remains the Luna Chat Coder runtime/continuity layer. This repository defines the broader workflow methodology. They can later be integrated if the workflow proves useful in practice.
 
+## 새 프로젝트는 한마디로 시작
+
+새 ChatGPT 대화에서 **프로젝트 GitHub 저장소 URL만 붙여** 다음처럼 말하면 된다.
+
+> **Luna v2로 이 저장소를 시작해줘: `https://github.com/<owner>/<repo>`**
+
+즉, 새 프로그램마다 원본 플레이북을 다시 분석하거나 Luna v2 설명을 다시 붙여넣을 필요가 없다. ChatGPT는 먼저 이 저장소의 `WORKFLOW.md`와 대상 프로젝트의 규칙을 확인한 뒤 `CONTEXT → INTENT → SPEC → PLAN`부터 시작한다.
+
+표준 시작 절차의 자세한 내용은 [`START.md`](START.md)에 있다.
+
 ## Workflow
 
 ```text
